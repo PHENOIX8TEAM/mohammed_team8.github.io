@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>World's famous</title>
+        <meta charset="UTF-8">
+        <link rel="icon" href="images/logo.jpg">
+        <meta name="discription" content="Here you would find the most famous characters of every field such as science ,history, art ,sports and much more">
+        <link rel="stylesheet" href="css\Login.css">
+        <style>
+            
+            ::-webkit-scrollbar {
+              width: 14px;
+            }
+            
+            
+            ::-webkit-scrollbar-track {
+              box-shadow: inset 0 0 5px gray; 
+              border-radius: 10px;
+            }
+             
+            
+            ::-webkit-scrollbar-thumb {
+              background: rgb(55, 44, 44); 
+              border-radius: 10px;
+            }
+            
+            
+            ::-webkit-scrollbar-thumb:hover {
+              background: #1d1b1b; 
+            }
+            </style>
+            <script src="js\Login.js"></script>
+
+    </head>
+    <body>
+        <form action="index.html" class="log" method="post">
+            <h1>Login</h1>
+            <input type="text" placeholder="Enter Username" name="user" required>
+            <input type="password" placeholder="Enter Password" name="pass" required minlength="8" maxlength="32">
+            <input type="submit" value="Login">
+            <input type="reset" value="Reset">
+        </form>
+    </body>
+</html>
